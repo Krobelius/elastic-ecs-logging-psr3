@@ -1,6 +1,6 @@
 {
-    "name": "elastic/ecs-logging",
-    "description": "Format and enrich your log files in the elastic common schema",
+    "name": "elastic/ecs-logging-psr3",
+    "description": "Format and enrich your log files in the elastic common schema with psr/log3 support",
     "keywords": ["log", "logging", "psr-3", "ecs", "elastic", "filebeat"],
     "homepage": "https://www.elastic.co/guide/en/ecs/",
     "type": "library",
@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "php": "^7.2||^8.0",
-        "psr/log": "^1.0.1",
+        "php": "^8.0",
+        "psr/log": "^1|^2|^3",
 	    "ext-json": "*"
     },
     "require-dev": {
